@@ -7,24 +7,24 @@ import { Dashboard } from "./pages/Dashboard"
 import { LandingPage } from "./pages/LandingPage"
 
 export const App = () => {
-  return (
-    <>
-      <AuthProvider>
-        <Router>
-          <Routes>
-            <Route path="landing" element={<LandingPage />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
+    return (
+        <>
+            {/* <AuthProvider> */}
+            <Router>
+                <Routes>
+                    <Route path="landing" element={<LandingPage />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/signup" element={<Signup />} />
 
-            <Route path="/" element={
-              <ProtectedRoute>
-                <Dashboard />
-              </ProtectedRoute>
-            } />
-          </Routes>
-        </Router>
-      </AuthProvider>
-    </>
-  )
+                    <Route path="/" element={
+                        // <ProtectedRoute> 
+                        < Dashboard />
+                        // </ProtectedRoute>
+                    } />
+                </Routes>
+            </Router>
+            {/* </AuthProvider> */}
+        </>
+    )
 }
 
