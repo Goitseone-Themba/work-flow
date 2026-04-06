@@ -1,0 +1,30 @@
+/* ./src/components/PrioritySettings.css */
+
+.priority-settings {
+    margin-top: 20px;
+  }
+  
+  .priority-settings h2 {
+    margin-bottom: 10px;
+  }
+  
+  .priority-settings table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .priority-settings th, .priority-settings td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .priority-settings th {
+    background-color: #f4f4f4;
+  }
+  
+  .priority-settings select {
+    padding: 5px;
+    border-radius: 4px;
+  }
+  

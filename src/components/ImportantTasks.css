@@ -1,0 +1,19 @@
+.important-tasks {
+    padding: 20px;
+  }
+  
+  .tasks-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tasks-table th, .tasks-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tasks-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  

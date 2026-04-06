@@ -1,0 +1,18 @@
+
+.assigned-tasks {
+  padding: 10px;
+}
+
+.assigned-tasks table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.assigned-tasks th, .assigned-tasks td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.assigned-tasks th {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,20 @@
+
+.analytics {
+    margin-top: 20px;
+  }
+  
+  .analytics h2 {
+    margin-bottom: 10px;
+  }
+  
+  .chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .chart {
+    width: 45%;
+    margin: 20px 0;
+  }
+  
